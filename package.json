@@ -1,0 +1,14 @@
+{
+  "name": "dana096",
+  "version": "0.1.0",
+  "description": "dana096",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dana096"
+  ],
+  "author": "dana096",
+  "license": "ISC"
+}
