@@ -10,5 +10,8 @@
     "dana096"
   ],
   "author": "dana096",
-  "license": "ISC"
+  "license": "ISC",
+  "bin": {
+	 "dana096": "./index.js"
+  }
 }
