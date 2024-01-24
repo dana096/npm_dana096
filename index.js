@@ -1,3 +1,9 @@
 #!/usr/bin/env node
 
-console.log('hello dana096');
+console.log(" \n" +
+"┌───────────────┐\n" +
+"       200 OK     \n" +
+"└───────────────┘\n" +
+"　　ᕱ ᕱ ||\n" +
+"　 ( ･ω･ ||\n" +
+"　 /　つΦ\n");
