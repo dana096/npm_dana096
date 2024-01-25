@@ -1,5 +1,16 @@
 #!/usr/bin/env node
 
+const asciiArt = '
+┌───────────────┐
+       200 OK     
+└───────────────┘
+　　ᕱ ᕱ ||
+  ( ･ω･ ||
+　 /　つΦ
+';
+
+console.log(asciiArt);
+
 // process.argv를 사용하여 발표자 목록을 입력
 const args = process.argv.slice(2);
 
@@ -14,11 +25,4 @@ const randomIndex = Math.floor(Math.random() * args.length);
 const selectedPresenter = args[randomIndex];
 
 // 선택된 발표자를 출력
-console.log(`발표자: ${selectedPresenter}`"\n" +
-"┌───────────────┐\n" +
-"       200 OK     \n" +
-"└───────────────┘\n" +
-"　　ᕱ ᕱ ||\n" +
-"  ( ･ω･ ||\n" +
-"　 /　つΦ\n");	
-);
+console.log(`발표자: ${selectedPresenter}`);
