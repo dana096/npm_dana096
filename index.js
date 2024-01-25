@@ -14,4 +14,11 @@ const randomIndex = Math.floor(Math.random() * args.length);
 const selectedPresenter = args[randomIndex];
 
 // 선택된 발표자를 출력
-console.log(`선택된 발표자: ${selectedPresenter}`);
+console.log(`발표자: ${selectedPresenter}`"\n" +
+"┌───────────────┐\n" +
+"       200 OK     \n" +
+"└───────────────┘\n" +
+"　　ᕱ ᕱ ||\n" +
+"  ( ･ω･ ||\n" +
+"　 /　つΦ\n");	
+);
