@@ -11,16 +11,23 @@ console.log(`
 
 
 
-function presenterList ({presenters = []} = {}) {
-		console.log('발표자', presenters);
+class PresenterList {
+	constructor(presenters) {
+		this.presenters = presenters;
+	}
+	pickedRandomPresenter() {
+		const length = this.presenters.length;
+		const selectedPresenter = this.presenters[Math.floor(Math.random() * length)];
+		console.log('발표자 : ', selectedPresenter);
+	}
 }
 
-function extendsPickedRandomPresenter ({presenters = []} = {}) {
-		const length = presenters.length;
-		const selectedPresenter = presenters[Math.floor(Math.random() * length)];
-		console.log('발표자 : ', selectedPresenter);
+class ExtendsPickedRandomPresenter extends PresenterList {
+	constructor(presenters) {
+		super (presenters);
+	}
 }
 
 const args = process.argv.slice(2);
-presenterList({presenters: args});
-extendsPickedRandomPresenter({presenters: args});
+const extendsPickedRandomPresenter = new ExtendsPickedRandomPresenter(args);
+extendsPickedRandomPresenter.pickedRandomPresenter();
