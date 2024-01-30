@@ -14,7 +14,7 @@
 ### use
 ```
 $ npm uninstall -g dana096
-$ npm insatall -g ./
+$ npm install -g ./
 $ dana096 홍길동 이순신 김유신
 ┌───────────────┐
        200 OK
